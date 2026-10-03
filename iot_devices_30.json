@@ -1,0 +1,910 @@
+[
+  {
+    "message_id": "MSG-00001245",
+    "source": {
+      "device_id": "WB-0001",
+      "hardware_id": "ESP32-A1B2C3D4",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0001",
+      "hardware_id": "ESP32-E5F6G7H8",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-01T11:13:00Z",
+    "priority": 2,
+    "communication": {
+      "current_method": "LoRa",
+      "path": [
+        "UWB",
+        "LoRa",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 3
+    },
+    "location": {
+      "latitude": 19.068214,
+      "longitude": 72.998652,
+      "accuracy_m": 12,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001246",
+    "source": {
+      "device_id": "WB-0002",
+      "hardware_id": "ESP32-B2C3D4E5",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0002",
+      "hardware_id": "ESP32-F6G7H8J9",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-01T16:26:00Z",
+    "priority": 4,
+    "communication": {
+      "current_method": "WiFi",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 18.993231,
+      "longitude": 73.010274,
+      "accuracy_m": 30,
+      "source": "GPS"
+    }
+  },
+  {
+    "message_id": "MSG-00001247",
+    "source": {
+      "device_id": "WB-0003",
+      "hardware_id": "ESP32-C3D4E5F6",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0003",
+      "hardware_id": "ESP32-G7H8J9K0",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-01T21:39:00Z",
+    "priority": 1,
+    "communication": {
+      "current_method": "Bluetooth",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 18.985341,
+      "longitude": 73.058188,
+      "accuracy_m": 12,
+      "source": "WiFi"
+    }
+  },
+  {
+    "message_id": "MSG-00001248",
+    "source": {
+      "device_id": "WB-0004",
+      "hardware_id": "ESP32-D4E5F6A7",
+      "device_type": "tracker"
+    },
+    "destination": {
+      "device_id": "WS-0004",
+      "hardware_id": "ESP32-H8J9K0L1",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-02T02:52:00Z",
+    "priority": 3,
+    "communication": {
+      "current_method": "UWB",
+      "path": [
+        "UWB",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.007199,
+      "longitude": 73.085203,
+      "accuracy_m": 50,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001249",
+    "source": {
+      "device_id": "WB-0005",
+      "hardware_id": "ESP32-A1B2C3D4",
+      "device_type": "sensor"
+    },
+    "destination": {
+      "device_id": "WS-0005",
+      "hardware_id": "ESP32-J9K0L1M2",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-02T07:05:00Z",
+    "priority": 2,
+    "communication": {
+      "current_method": "LoRa",
+      "path": [
+        "UWB",
+        "LoRa",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 3
+    },
+    "location": {
+      "latitude": 19.069783,
+      "longitude": 73.076641,
+      "accuracy_m": 35,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001250",
+    "source": {
+      "device_id": "WB-0006",
+      "hardware_id": "ESP32-B2C3D4E5",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0001",
+      "hardware_id": "ESP32-E5F6G7H8",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-02T12:18:00Z",
+    "priority": 4,
+    "communication": {
+      "current_method": "WiFi",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.014029,
+      "longitude": 73.125295,
+      "accuracy_m": 10,
+      "source": "WiFi"
+    }
+  },
+  {
+    "message_id": "MSG-00001251",
+    "source": {
+      "device_id": "WB-0007",
+      "hardware_id": "ESP32-C3D4E5F6",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0002",
+      "hardware_id": "ESP32-F6G7H8J9",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-02T17:31:00Z",
+    "priority": 2,
+    "communication": {
+      "current_method": "Bluetooth",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.077021,
+      "longitude": 73.045938,
+      "accuracy_m": 18,
+      "source": "GPS"
+    }
+  },
+  {
+    "message_id": "MSG-00001252",
+    "source": {
+      "device_id": "WB-0008",
+      "hardware_id": "ESP32-D4E5F6A7",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0003",
+      "hardware_id": "ESP32-G7H8J9K0",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-02T22:44:00Z",
+    "priority": 3,
+    "communication": {
+      "current_method": "UWB",
+      "path": [
+        "UWB",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 18.987632,
+      "longitude": 73.051889,
+      "accuracy_m": 18,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001253",
+    "source": {
+      "device_id": "WB-0009",
+      "hardware_id": "ESP32-A1B2C3D4",
+      "device_type": "tracker"
+    },
+    "destination": {
+      "device_id": "WS-0004",
+      "hardware_id": "ESP32-H8J9K0L1",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-03T03:57:00Z",
+    "priority": 4,
+    "communication": {
+      "current_method": "LoRa",
+      "path": [
+        "UWB",
+        "LoRa",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 3
+    },
+    "location": {
+      "latitude": 19.062859,
+      "longitude": 73.115969,
+      "accuracy_m": 30,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001254",
+    "source": {
+      "device_id": "WB-0010",
+      "hardware_id": "ESP32-B2C3D4E5",
+      "device_type": "sensor"
+    },
+    "destination": {
+      "device_id": "WS-0005",
+      "hardware_id": "ESP32-J9K0L1M2",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-03T08:10:00Z",
+    "priority": 1,
+    "communication": {
+      "current_method": "WiFi",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 18.991024,
+      "longitude": 73.133244,
+      "accuracy_m": 15,
+      "source": "GPS"
+    }
+  },
+  {
+    "message_id": "MSG-00001255",
+    "source": {
+      "device_id": "WB-0011",
+      "hardware_id": "ESP32-C3D4E5F6",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0001",
+      "hardware_id": "ESP32-E5F6G7H8",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-03T13:23:00Z",
+    "priority": 5,
+    "communication": {
+      "current_method": "Bluetooth",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.096711,
+      "longitude": 73.087678,
+      "accuracy_m": 35,
+      "source": "GPS"
+    }
+  },
+  {
+    "message_id": "MSG-00001256",
+    "source": {
+      "device_id": "WB-0012",
+      "hardware_id": "ESP32-D4E5F6A7",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0002",
+      "hardware_id": "ESP32-F6G7H8J9",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-03T18:36:00Z",
+    "priority": 4,
+    "communication": {
+      "current_method": "UWB",
+      "path": [
+        "UWB",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.001143,
+      "longitude": 73.005333,
+      "accuracy_m": 15,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001257",
+    "source": {
+      "device_id": "WB-0013",
+      "hardware_id": "ESP32-A1B2C3D4",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0003",
+      "hardware_id": "ESP32-G7H8J9K0",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-03T23:49:00Z",
+    "priority": 5,
+    "communication": {
+      "current_method": "LoRa",
+      "path": [
+        "UWB",
+        "LoRa",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 3
+    },
+    "location": {
+      "latitude": 19.120083,
+      "longitude": 73.123198,
+      "accuracy_m": 20,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001258",
+    "source": {
+      "device_id": "WB-0014",
+      "hardware_id": "ESP32-B2C3D4E5",
+      "device_type": "tracker"
+    },
+    "destination": {
+      "device_id": "WS-0004",
+      "hardware_id": "ESP32-H8J9K0L1",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-04T04:02:00Z",
+    "priority": 3,
+    "communication": {
+      "current_method": "WiFi",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.013996,
+      "longitude": 73.090253,
+      "accuracy_m": 18,
+      "source": "GPS"
+    }
+  },
+  {
+    "message_id": "MSG-00001259",
+    "source": {
+      "device_id": "WB-0015",
+      "hardware_id": "ESP32-C3D4E5F6",
+      "device_type": "sensor"
+    },
+    "destination": {
+      "device_id": "WS-0005",
+      "hardware_id": "ESP32-J9K0L1M2",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-04T09:15:00Z",
+    "priority": 4,
+    "communication": {
+      "current_method": "Bluetooth",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.025591,
+      "longitude": 73.095426,
+      "accuracy_m": 40,
+      "source": "WiFi"
+    }
+  },
+  {
+    "message_id": "MSG-00001260",
+    "source": {
+      "device_id": "WB-0016",
+      "hardware_id": "ESP32-D4E5F6A7",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0001",
+      "hardware_id": "ESP32-E5F6G7H8",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-04T14:28:00Z",
+    "priority": 2,
+    "communication": {
+      "current_method": "UWB",
+      "path": [
+        "UWB",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.069505,
+      "longitude": 73.08627,
+      "accuracy_m": 50,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001261",
+    "source": {
+      "device_id": "WB-0017",
+      "hardware_id": "ESP32-A1B2C3D4",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0002",
+      "hardware_id": "ESP32-F6G7H8J9",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-04T19:41:00Z",
+    "priority": 2,
+    "communication": {
+      "current_method": "LoRa",
+      "path": [
+        "UWB",
+        "LoRa",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 3
+    },
+    "location": {
+      "latitude": 19.009022,
+      "longitude": 73.064239,
+      "accuracy_m": 40,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001262",
+    "source": {
+      "device_id": "WB-0018",
+      "hardware_id": "ESP32-B2C3D4E5",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0003",
+      "hardware_id": "ESP32-G7H8J9K0",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-05T00:54:00Z",
+    "priority": 2,
+    "communication": {
+      "current_method": "WiFi",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.075524,
+      "longitude": 73.027842,
+      "accuracy_m": 5,
+      "source": "WiFi"
+    }
+  },
+  {
+    "message_id": "MSG-00001263",
+    "source": {
+      "device_id": "WB-0019",
+      "hardware_id": "ESP32-C3D4E5F6",
+      "device_type": "tracker"
+    },
+    "destination": {
+      "device_id": "WS-0004",
+      "hardware_id": "ESP32-H8J9K0L1",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-05T05:07:00Z",
+    "priority": 2,
+    "communication": {
+      "current_method": "Bluetooth",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.006657,
+      "longitude": 72.999715,
+      "accuracy_m": 15,
+      "source": "GPS"
+    }
+  },
+  {
+    "message_id": "MSG-00001264",
+    "source": {
+      "device_id": "WB-0020",
+      "hardware_id": "ESP32-D4E5F6A7",
+      "device_type": "sensor"
+    },
+    "destination": {
+      "device_id": "WS-0005",
+      "hardware_id": "ESP32-J9K0L1M2",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-05T10:20:00Z",
+    "priority": 3,
+    "communication": {
+      "current_method": "UWB",
+      "path": [
+        "UWB",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 18.982228,
+      "longitude": 73.13187,
+      "accuracy_m": 50,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001265",
+    "source": {
+      "device_id": "WB-0021",
+      "hardware_id": "ESP32-A1B2C3D4",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0001",
+      "hardware_id": "ESP32-E5F6G7H8",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-05T15:33:00Z",
+    "priority": 3,
+    "communication": {
+      "current_method": "LoRa",
+      "path": [
+        "UWB",
+        "LoRa",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 3
+    },
+    "location": {
+      "latitude": 19.019502,
+      "longitude": 73.093216,
+      "accuracy_m": 40,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001266",
+    "source": {
+      "device_id": "WB-0022",
+      "hardware_id": "ESP32-B2C3D4E5",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0002",
+      "hardware_id": "ESP32-F6G7H8J9",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-05T20:46:00Z",
+    "priority": 2,
+    "communication": {
+      "current_method": "WiFi",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.041128,
+      "longitude": 73.034632,
+      "accuracy_m": 30,
+      "source": "GPS"
+    }
+  },
+  {
+    "message_id": "MSG-00001267",
+    "source": {
+      "device_id": "WB-0023",
+      "hardware_id": "ESP32-C3D4E5F6",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0003",
+      "hardware_id": "ESP32-G7H8J9K0",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-06T01:59:00Z",
+    "priority": 3,
+    "communication": {
+      "current_method": "Bluetooth",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.053147,
+      "longitude": 73.106952,
+      "accuracy_m": 35,
+      "source": "GPS"
+    }
+  },
+  {
+    "message_id": "MSG-00001268",
+    "source": {
+      "device_id": "WB-0024",
+      "hardware_id": "ESP32-D4E5F6A7",
+      "device_type": "tracker"
+    },
+    "destination": {
+      "device_id": "WS-0004",
+      "hardware_id": "ESP32-H8J9K0L1",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-06T06:12:00Z",
+    "priority": 5,
+    "communication": {
+      "current_method": "UWB",
+      "path": [
+        "UWB",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.03221,
+      "longitude": 73.027798,
+      "accuracy_m": 30,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001269",
+    "source": {
+      "device_id": "WB-0025",
+      "hardware_id": "ESP32-A1B2C3D4",
+      "device_type": "sensor"
+    },
+    "destination": {
+      "device_id": "WS-0005",
+      "hardware_id": "ESP32-J9K0L1M2",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-06T11:25:00Z",
+    "priority": 5,
+    "communication": {
+      "current_method": "LoRa",
+      "path": [
+        "UWB",
+        "LoRa",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 3
+    },
+    "location": {
+      "latitude": 19.046327,
+      "longitude": 73.108267,
+      "accuracy_m": 10,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001270",
+    "source": {
+      "device_id": "WB-0026",
+      "hardware_id": "ESP32-B2C3D4E5",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0001",
+      "hardware_id": "ESP32-E5F6G7H8",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-06T16:38:00Z",
+    "priority": 3,
+    "communication": {
+      "current_method": "WiFi",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.066417,
+      "longitude": 73.113712,
+      "accuracy_m": 8,
+      "source": "GPS"
+    }
+  },
+  {
+    "message_id": "MSG-00001271",
+    "source": {
+      "device_id": "WB-0027",
+      "hardware_id": "ESP32-C3D4E5F6",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0002",
+      "hardware_id": "ESP32-F6G7H8J9",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-06T21:51:00Z",
+    "priority": 3,
+    "communication": {
+      "current_method": "Bluetooth",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.030015,
+      "longitude": 73.084283,
+      "accuracy_m": 15,
+      "source": "WiFi"
+    }
+  },
+  {
+    "message_id": "MSG-00001272",
+    "source": {
+      "device_id": "WB-0028",
+      "hardware_id": "ESP32-D4E5F6A7",
+      "device_type": "wearable"
+    },
+    "destination": {
+      "device_id": "WS-0003",
+      "hardware_id": "ESP32-G7H8J9K0",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-07T02:04:00Z",
+    "priority": 1,
+    "communication": {
+      "current_method": "UWB",
+      "path": [
+        "UWB",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.117962,
+      "longitude": 73.124017,
+      "accuracy_m": 50,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001273",
+    "source": {
+      "device_id": "WB-0029",
+      "hardware_id": "ESP32-A1B2C3D4",
+      "device_type": "tracker"
+    },
+    "destination": {
+      "device_id": "WS-0004",
+      "hardware_id": "ESP32-H8J9K0L1",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-07T07:17:00Z",
+    "priority": 4,
+    "communication": {
+      "current_method": "LoRa",
+      "path": [
+        "UWB",
+        "LoRa",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 3
+    },
+    "location": {
+      "latitude": 18.989483,
+      "longitude": 73.127618,
+      "accuracy_m": 40,
+      "source": "UWB"
+    }
+  },
+  {
+    "message_id": "MSG-00001274",
+    "source": {
+      "device_id": "WB-0030",
+      "hardware_id": "ESP32-B2C3D4E5",
+      "device_type": "sensor"
+    },
+    "destination": {
+      "device_id": "WS-0005",
+      "hardware_id": "ESP32-J9K0L1M2",
+      "device_type": "weather_station"
+    },
+    "timestamp": "2026-09-07T12:30:00Z",
+    "priority": 2,
+    "communication": {
+      "current_method": "WiFi",
+      "path": [
+        "Bluetooth",
+        "WiFi",
+        "Internet"
+      ],
+      "hop_count": 2
+    },
+    "location": {
+      "latitude": 19.023326,
+      "longitude": 73.038925,
+      "accuracy_m": 5,
+      "source": "WiFi"
+    }
+  }
+]
